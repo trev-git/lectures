@@ -15,6 +15,7 @@
       "bmatrix"
     ],
     "editor.insertSpaces": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "cSpell.enabled": true
   }
 }

@@ -25,4 +25,4 @@ H: 1
 O: 1
 U: 0
 
-sed "y/MJZSLP/THEARN/" asddsa.txt
+sed "y/MJZSLPB/THEARNP/" asddsa.txt

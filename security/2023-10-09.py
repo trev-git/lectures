@@ -1,17 +1,8 @@
-n_vals = [1, 2, 3,]
-
-def euler_function(m: int) -> list[int]:
-    res = []
-    for i in range(1, m+1):
-        if m % i != 0 or i == 1:
-            res.append(i)
-    return res
-
-m = 24
-print(euler_function(m))
+n_vals = [1, 3, 5, 7, 9, 11, 13, 15, 19, 21, 23, 25, 27, 29, 31, 33]
+m = 34
 
 for val in n_vals:
     for val2 in n_vals:
         res = (val * val2) % m;
         if res == 1:
-            print(f'| {val} | {val2} |')
+            print(f'{val} = {val2}')

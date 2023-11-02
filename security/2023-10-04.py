@@ -12,6 +12,6 @@ for ch in text:
     if ch == ' ':
         res += ch
         continue
-    res += chr((ord(ch) - ord('A') + shift) % 26 + ord('A'))
+    res += chr((ord(ch) - ord('А') + shift) % 33 + ord('А'))
 
 print(res)
